@@ -15,7 +15,10 @@ class Test {
 //val detal : Array<Int> = Array(3, {0})
 
 //리스트
-var list = listOf<Int>(10, 20, 30)
+//var list = listOf<Int>(10, 20, 30)
+
+//조건문
+var date = 10
 
 fun main() {
 //    println("hello kotlin")
@@ -37,10 +40,16 @@ fun main() {
 //        """.trimIndent()
 //    )
 
-    println(
-        """
-            list size : ${list.size}
-            list date : ${list[0]}, ${list.get(1)}, ${list.get(2)}
-        """.trimIndent()
-    )
+//    println(
+//        """
+//            list size : ${list.size}
+//            list date : ${list[0]}, ${list.get(1)}, ${list.get(2)}
+//        """.trimIndent()
+//    )
+
+//    if (date > 0) {
+//        println("date > 0")
+//    } else {
+//        println("date < 0")
+//    }
 }

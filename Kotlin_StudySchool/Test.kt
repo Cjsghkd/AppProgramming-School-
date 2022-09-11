@@ -1,7 +1,9 @@
 package com.example.kotlin_studyschool
 
 class Test {
+
 }
+
 // var, val
 //val date1 = 10
 //var date2 = 10
@@ -9,7 +11,7 @@ class Test {
 //문자열
 //val str1 = "hello \n world"
 //var str2 = """Hello
-//       Wolrd"""
+//       Wolrd""".trimIndent()
 
 //배열
 //val detal : Array<Int> = Array(3, {0})
@@ -21,6 +23,7 @@ class Test {
 var date = 10
 
 fun main() {
+
 //    println("hello kotlin")
 
 //    date1 + 20 // 오류
@@ -50,6 +53,7 @@ fun main() {
 //    if (date > 0) {
 //        println("date > 0")
 //    } else {
-//        println("date < 0")
+//        println("date =< 0")
 //    }
+
 }
